@@ -1,0 +1,15 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude
+.claude/
+.mcp.json*
+
+# macOS
+.DS_Store
