@@ -17,6 +17,18 @@ python app.py
 
 A ☕ / 💤 icon appears in your menu bar.
 
+## Build as macOS App
+
+Package mac-awake as a standalone `.app` bundle you can double-click from Finder:
+
+```bash
+pip install -r requirements.txt
+python setup.py py2app
+open "dist/Mac Awake.app"
+```
+
+The built app is at `dist/Mac Awake.app`. Drag it to your Applications folder to install.
+
 ## Usage
 
 | Action | How |
